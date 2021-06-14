@@ -9,10 +9,9 @@ import timber.log.Timber
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        var binding: ActivityMainBinding
 
         super.onCreate(savedInstanceState)
-       binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+        val binding: ActivityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
         Timber.plant(Timber.DebugTree())
 
