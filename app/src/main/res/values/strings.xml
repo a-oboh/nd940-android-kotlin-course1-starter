@@ -9,4 +9,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="welcome_page_title">Welcome to Shoestore</string>
     <string name="welcome_page_subtitle">An Inventory for all your shoes</string>
+    <string name="instruction_body">You can add a new shoe to the list of shoes. \nYou can also tap each of your items to view details about that shoe.</string>
+    <string name="instruction_title">How to use Shoestore</string>
+    <string name="continue_btn_text">Continue</string>
 </resources>
