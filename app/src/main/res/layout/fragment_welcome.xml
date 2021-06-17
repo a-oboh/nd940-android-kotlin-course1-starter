@@ -10,7 +10,7 @@
 
         <TextView
             android:id="@+id/welcome_title"
-            style="@style/TitleText"
+            style="@style/TitleTextStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="124dp"
@@ -41,9 +41,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="220dp"
-            android:backgroundTint="@color/colorPrimary"
-            android:text="Let's go!"
-            android:textColor="@color/white"
+            android:text="@string/welcome_btn_text"
+            style="@style/ContinueButtonStyle"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
